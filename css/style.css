@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: thin;
+    font-size: 1rem;    
+}
+
+body
+{
+    padding: 5px;
+    background-image: url(../Img/fondo.png);       
+    background-attachment: fixed;
+    background-size: cover;   
+}
+
+header
+{
+    background-image: url(../Img/Hinchada\ San\ Lorenzo.jpg);   
+    height: 240px;      
+    position: relative;
+    grid-area: header;
+}
+
+    header a img
+    {
+        position: absolute;
+        left: calc(50% - 7.5rem);
+        top: 50px;
+        width: 10rem;     
+
+    }
+
+    header a img:hover
+    {
+        transform: scale(1.2);
+        cursor: pointer;
+        transition: transform 1s;
+    }
+
+nav
+{
+    background-color: rgba(38, 60, 84, 1);    
+    position: sticky;
+    top: 0;
+    grid-area: nav;    
+}
+
+    nav ul li
+    {
+        list-style: none;
+        display: inline-block;
+        width: 20%;
+        text-align: center;     
+    }
+
+        nav ul li a
+        {
+
+        color: rgb(255, 255, 255);
+        text-decoration: none; 
+        text-transform: uppercase;
+        font-size: 20px;
+        
+        }
+
+            nav ul li a:hover
+            {
+                color: rgb(235, 30, 40);
+            }
+
+            nav ul li a.active
+            {
+                text-decoration: underline;
+            }
+
+            nav ul
+            {
+                list-style: none;
+                background-color: rgb(38, 60, 84);
+                font-size: 0;
+                padding: 20px;
+            }
+
+            nav li
+            {
+                display: inline-block;
+                width: 15%;
+                position: relative;
+                font-size: 10px;              
+            }
+
+            nav ul ul
+            {
+                position: absolute;
+                display: none;
+            }
+
+            nav ul ul li
+            {
+                display: block;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                width: 100%;
+                text-align: left;
+            }
+
+            
+            nav ul li:hover ul
+            {
+                display: block;
+            }
+
+            nav a
+            {
+                color: rgba(38, 60, 84, 0.7);
+                text-decoration: none;
+                font-size: 1rem;
+            }
+
+            nav a:hover
+            {
+                color: rgb(235, 30, 40);
+            }
+
+.listStyle
+{
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    list-style: none;
+    /* display: inline-block; */
+    text-decoration: none;
+    width: 15%;
+    margin-right: 10px;
+    margin-left: 3rem;
+    background-color: rgb(235, 30, 40);
+}
+
+.ulbu
+{
+    background-color: rgb(235, 30, 40);
+    display: flex;
+    justify-content: space-between;
+}
+
+    .libu
+    {      
+        list-style: none;
+        width: 23%;
+        text-align: center;
+        padding: 4px 0;  
+        margin: 5px;      
+    }
+
+        .abu
+        {
+           	color: rgb(255, 255, 255);
+			font-size: 1em;
+			text-decoration: none;
+			text-transform: uppercase;			
+        }
+
+        main ul li a:hover
+        {
+            color: rgb(38, 60, 84);
+        }
+
+main
+{
+    grid-area: main;
+}
+
+h1
+{
+    font-size: 2.5rem;
+    text-align: center;    
+    padding: 20px 0;   
+    color: rgb(38, 60, 84);
+    background-color: rgb(218, 60, 68);
+}
+
+h2
+{
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h3
+{
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+}
+
+p
+{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+    button
+    {
+        width: 150px;
+        height: 40px;
+        border-radius: 5px;
+        text-align: center;
+        margin: 5px;
+        color: rgb(38, 60, 84);
+        background: rgba(255, 255, 255, 0.8);
+        
+    }
+
+        button:hover
+        {
+            background: linear-gradient(to left,rgb(38, 60, 84),rgb(235, 30, 40));
+            color: rgb(255, 255, 255);
+            transition: all 1s;
+            cursor: pointer;
+        }
+
+        table {
+            border-collapse: separate;
+            border-spacing: 10px;
+            background: linear-gradient(to top,rgb(38, 60, 84),rgb(235, 30, 40));
+            color: rgb(255, 255, 255);
+
+         }
+         td, th { 
+            padding: 10px;
+            background:rgba(255, 255, 255, 0.5);
+            color:rgb(32, 32, 32);
+         }
+.titulos
+{
+    margin: 4px;
+    color: white;
+}
+
+.art1
+{       
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;	
+} 
+
+.alignSelf
+{
+    align-self: center;
+    text-align: center;
+    margin: 10px;
+}
+
+
+section article table
+{
+    background-color: rgba(255, 255, 255, 0.8);
+    color: rgb(32, 32, 32);
+    border: solid;
+    font-size: 2rem;
+    margin: 20px;
+    width: 80%;
+    text-align: center;        
+    tab-size: 5rem;
+    
+}
+
+
+.container
+{   
+    padding: 10px;
+    border: none;
+    text-transform: uppercase;  
+    display: flex;
+  
+}
+
+.w25
+{
+    width: 25%;
+}
+
+.flex
+{
+    width: 100%;
+    flex-flow: wrap;
+    justify-content: center;
+    }
+
+.box
+{
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.c23{
+    background-image: url(../Img/23.jpg);
+    }
+
+.c24{
+    background-image: url(../Img/campeon_1924.jpg);
+}
+
+.c27{
+    background-image: url(../Img/campeon_1927.jpg);
+}
+
+.c33{
+    background-image: url(../Img/33.jpg);
+}
+
+.c36{
+    background-image: url(../Img/campeon_1936.jpg);
+}
+
+.c46{
+    background-image: url(../Img/campeon_1946.jpg);
+}
+
+.c59{
+    background-image: url(../Img/campeon_1959.jpg);
+}
+
+.m68{
+    background-image: url(../Img/metropolitano_1968.jpg);
+}
+
+.m72{
+    background-image: url(../Img/metropolitano_1972.jpg);
+}
+
+.n72{
+    background-image: url(../Img/nacional_1972.jpg);
+}
+
+.n74{
+    background-image: url(../Img/nacional_1974.jpg);
+}
+
+.c95{
+    background-image: url(../Img/campeon_1995.jpg);
+}
+.c01{
+    background-image: url(../Img/clausura_2001.jpg);
+}
+.m01{
+    background-image: url(../Img/mercosur_2001.jpg);
+}
+.s02{
+    background-image: url(../Img/sudamericana_2002.jpg);
+}
+.c07{
+    background-image: url(../Img/clausura_2007.jpg);
+}
+.i13{
+    background-image: url(../Img/inicial_2013.jpg);
+}
+.l14{
+    background-image: url(../Img/libertadores_2014.jpg);
+}
+.s15{
+    background-image: url(../Img/superarg_2015.jpg);
+}
+
+.color:hover
+{
+    width: 400px;
+    transform: translateX(10px);
+    transition: all 1s;
+    animation-iteration-count: 1;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 2; 
+            height: 68vh;
+          }
+    .div2 { grid-area: 1 / 2 / 2 / 3; 
+            height: 68vh;
+          }
+
+    .parent1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+        list-style: none;
+        }
+        
+        .div3 { grid-area: 1 / 1 / 2 / 2; }
+        .div4 { grid-area: 1 / 2 / 2 / 3; }
+        .div5 { grid-area: 2 / 1 / 3 / 2; }
+        .div6 { grid-area: 2 / 2 / 3 / 3; }
+
+footer
+{
+    padding: 10px 20px;
+    grid-area: foot;
+
+}
+
+    footer a img
+    {
+        float: right;
+        padding: 4%;
+    }
+
+    footer a img:hover
+    {
+        transform: scale(1.3);
+        cursor: pointer;
+        transition: transform 1s;
+    }
+
+    footer ul li
+    {
+        list-style: none;
+        display: inline-block;
+        padding: 2%;        
+    }
+
+    footer iframe
+    {
+        height: 20%;
+    }
+
+footer p
+{
+    text-align: left;
+    padding: 10px;
+}
+
+.index{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 30vh 10vh 40vh 20vh;
+	grid-template-areas: "header" "nav" "main" "foot";
+}
