@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+body
+{   
+    background-image: url(../Img/fondo.png);       
+    background-attachment: fixed;
+    background-size: cover;    
+    overflow-x: hidden; 
+    
+}
+
+header
+{
+    background-image: url(../Img/Hinchada\ San\ Lorenzo.jpg);   
+    height: 240px;      
+}
+
+    header a img
+    {
+        position: absolute;
+        left: calc(50% - 7.5rem);
+        top: 50px;
+        width: 10rem;      
+
+    }
+
+    header a img:hover
+    {
+        transform: scale(1.1);
+        cursor: pointer;
+        transition: transform 1s;
+    }
+
+nav
+{    
+    background-color: rgba(38, 60, 84, 1);
+    font-size: 18px;    
+    text-transform: uppercase;
+}
+
+.rojo
+{
+    background-color: rgb(235,30,40);
+}
+
+.button:hover
+        {
+            background: linear-gradient(to left,rgb(38, 60, 84),rgb(235, 30, 40));
+            color: rgb(255, 255, 255);
+            transition: all 1s;
+            cursor: pointer;
+        }
+
+        .box
+        {
+            padding: 20px;
+            text-align: center;
+            color: white;
+            font-family: 'Roboto', sans-serif;
+            height: 150px;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    
+.c23{
+    background-image: url(../Img/23.jpg);
+    }
+
+.c24{
+    background-image: url(../Img/campeon_1924.jpg);
+}
+
+.c27{
+    background-image: url(../Img/campeon_1927.jpg);
+}
+
+.c33{
+    background-image: url(../Img/33.jpg);
+}
+
+.c36{
+    background-image: url(../Img/campeon_1936.jpg);
+}
+
+.c46{
+    background-image: url(../Img/campeon_1946.jpg);
+}
+
+.c59{
+    background-image: url(../Img/campeon_1959.jpg);
+}
+
+.m68{
+    background-image: url(../Img/metropolitano_1968.jpg);
+}
+
+.m72{
+    background-image: url(../Img/metropolitano_1972.jpg);
+}
+
+.n72{
+    background-image: url(../Img/nacional_1972.jpg);
+}
+
+.n74{
+    background-image: url(../Img/nacional_1974.jpg);
+}
+
+.c95{
+    background-image: url(../Img/campeon_1995.jpg);
+}
+.c01{
+    background-image: url(../Img/clausura_2001.jpg);
+}
+.m01{
+    background-image: url(../Img/mercosur_2001.jpg);
+}
+.s02{
+    background-image: url(../Img/sudamericana_2002.jpg);
+}
+.c07{
+    background-image: url(../Img/clausura_2007.jpg);
+}
+.i13{
+    background-image: url(../Img/inicial_2013.jpg);
+}
+.l14{
+    background-image: url(../Img/libertadores_2014.jpg);
+}
+.s15{
+    background-image: url(../Img/superarg_2015.jpg);
+}
+.color:hover
+{
+    width: 400px;
+    transform: translateX(10px);
+    transition: all 1s;
+    animation-iteration-count: 1;
+}    
+
+        footer
+        {
+            padding: 10px 20px;
+            grid-area: foot;
+        
+        }           
+        
+            footer a img
+            {
+                float: right;
+                padding: 4%;
+            }
+        
+            footer a img:hover
+            {
+                transform: scale(1.2);
+                cursor: pointer;
+                transition: transform 1s;
+            }
+        
+            footer ul li
+            {
+                list-style: none;
+                display: inline-block;
+                padding: 2%;        
+            }
+        
+            footer iframe
+            {
+                height: 20%;
+            }
+        
+        footer p
+        {
+            text-align: left;
+            padding: 10px;
+        }
+        
