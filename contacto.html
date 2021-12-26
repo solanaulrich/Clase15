@@ -14,10 +14,6 @@
   <body>
     <!-- inicia header -->
     <header class="py-2 row col-md-auto container-fluid">
-        <form class="d-flex w-25 align-self-center">
-            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-            <button class="btn btn-danger" type="submit">Buscar</button>
-        </form>
         <a href="index.html" class="col-md-auto">
             <img src="Img/logo.png" alt="Logo">                  
         </a>
@@ -26,48 +22,53 @@
 
     <!-- incia nav  -->
     <nav class="navbar navbar-expand-md sticky-top navbar-dark bg-gradient">
-        <div class="container p-3 position-relative" >   
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>               
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav me-auto mb-3 mb-lg position-absolute top-50 start-50 translate-middle">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle active" href="deportes.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Deportes
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <li><a class="dropdown-item" href="deportes.html">Fútbol Masculino</a></li>
-                      <li><a class="dropdown-item" href="deportes.html">Fútbol Femenino</a></li>
-                      <li><a class="dropdown-item" href="deportes.html">Futsal</a></li>
-                      <li><a class="dropdown-item" href="deportes.html">Basquet</a></li>
-                      <li><a class="dropdown-item" href="deportes.html">+ Deportes</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle active" href="socios.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Socios
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <li><a class="dropdown-item" href="socios.html">Asociate</a></li>
-                      <li><a class="dropdown-item" href="socios.html">Información del socio</a></li>
-                      <li><a class="dropdown-item" href="socios.html">¿Cómo pago mi cuenta?</a></li>
-                      <li><a class="dropdown-item" href="socios.html">¿Qué necesito para asociarme?</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="historia.html">Historia</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="butteler.html">Gloriosa Butteler</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
-                </li>
-            </ul>
-          </div>
+      <div class="container-fluid">            
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Deportes
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="deportes.html">Futbol Masculino</a></li>
+                <li><a class="dropdown-item" href="deportes.html">Futbol Femenino</a></li>
+                <li><a class="dropdown-item" href="deportes.html">Futsal</a></li>
+                <li><a class="dropdown-item" href="deportes.html">Basquet</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="deportes.html">+ Deportes</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Socios
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="socios.html">Asociarme</a></li>
+                <li><a class="dropdown-item" href="socios.html">Información del socio</a></li>
+                <li><a class="dropdown-item" href="socios.html">¿Cómo pago mi cuenta?</a></li>
+                <li><a class="dropdown-item" href="socios.html">¿Qué necesito para asociarme?</a></li>                    
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="historia.html">Historia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="butteler.html">La Gloriosa Butteler</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+            </li> 
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-danger" type="submit">Buscar</button>
+          </form>
         </div>
-      </nav>
+      </div>
+    </nav>
     <!-- termina nav  -->
     <main>
         <section class="py-2">
